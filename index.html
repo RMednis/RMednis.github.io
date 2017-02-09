@@ -32,17 +32,17 @@
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-    <!-- Modal About Construction --!>
+    <!-- Modal popup [Temporary] -->
 <div id="Modal1" class="modal fade">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title">Confirmation</h4>
+                <h4 class="modal-title">Warning!</h4>
             </div>
             <div class="modal-body">
                 <p class="text-warning">This site is under heavy construction.</p>
-                <p class="text-warning"><small>It isn't even close to being ready!.</small></p>
+                <p class="text-warning"><small>It isn't even close to being ready!</small></p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">I still want to see it!</button>
@@ -50,6 +50,16 @@
         </div>
     </div>
 </div>
+<div id="egg" class="modal fade" tabindex="1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-body">
+            <img src="img/egg0.gif" class="img-responsive">
+        </div>
+    </div>
+  </div>
+</div>
+
     <!-- Navigation -->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
@@ -89,7 +99,7 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <h1 class="brand-heading">Reinis Mednis</h1>
-                        <p class="intro-text">9.klases skolēns, kam patīk datortehnika..</p>
+                        <p class="intro-text">9.klases skolēns</p>
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
@@ -116,7 +126,7 @@
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Programmēšana</h2>
-                    <p>Man tā patīk, mēģinu/esmu apguvis šīs valodas:</p>
+                    <p>Mēģinu/esmu apguvis šīs valodas:</p>
                 </div>
             </div>
         </div>
@@ -142,7 +152,7 @@
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p>Copyright &copy; mednis.id.lv 2016</p>
+            <p>Copyright &copy; mednis.id.lv 2017</p>
             <p>Theme "Grayscale" by the wonderfull folks over at start bootstrap.</p>
         </div>
     </footer>
@@ -157,12 +167,23 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <!-- Theme JavaScript -->
     <script src="js/grayscale.min.js"></script>
-    <!-- Load modal --!>
+    <!-- Load modal -->
      <script type="text/javascript">
 	$(document).ready(function(){
 		$("#Modal1").modal('show');
 	});
     </script>
+    <!-- Konami code thing :) -->
+    <script type="text/javascript" src="js/konami.js"></script>
+    <script type="text/javascript">
+        var konami = new Konami();
+        konami.code = function() { 
+        $("#egg").modal('show'); 
+        }
+        konami.load();
+
+    </script>
+    
 
 </body>
 
