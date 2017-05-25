@@ -18,6 +18,7 @@
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="vendor/med0-font/style.css" rel="stylesheet" type="text/css">
 
     <!-- Theme CSS -->
     <link href="css/grayscale.min.css" rel="stylesheet">
@@ -39,24 +40,22 @@
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
     <!-- Modal popup [Temporary] -->
-<div id="Modal1" class="modal fade">
+<div id="Temporary" class="modal fade">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true" autofocus>&times;</button>
             </div>
             <div class="modal-body">
-                <h2><span style="color: #8a6d3b"> Uzmanību! </span></h2>
-                <p class="text-warning">Šī lapa vēl tiek veidota!</p>
-                <p class="text-warning"><small>Tā nav pat tuvu pabeigšanai!</small></p>
+                <p class="text-warning">Šī lapa vēl tiek veidota! Pašlaik tā atrodas "alpha" stadijā.</p>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Man vienalga, es tāpat gribu to redzēt!</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Sapratu!</button>
             </div>
         </div>
     </div>
 </div>
-    <!-- mod.egg0.popup -->
+    <!-- mod.strap.popup -->
 <div id="egg" class="modal fade" tabindex="1" role="dialog" aria-labelledby="egg0" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -75,7 +74,7 @@
                     Iespējas <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                    <span class="light">Reinis</span>
+                   <i class="icon-Mednis"></i> <span class="light">Mednis</span>
                 </a>
             </div>
 
@@ -124,7 +123,7 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Par Mani</h2>
-                <p>Esmu 9. klases skolēns, kas mācās Ogres Valsts Ģimnāzijā
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices ultricies commodo. Curabitur laoreet ante ac arcu volutpat ullamcorper. Phasellus ipsum risus, malesuada non interdum ac, commodo eu dui. Donec diam mauris, tempor eu consequat non, suscipit sit amet justo. Aenean iaculis tincidunt pretium. Nulla a odio sit amet risus pellentesque mattis at vitae libero. Donec nec suscipit tortor. Morbi quis fringilla erat. Etiam ornare orci dui, eget dapibus purus feugiat facilisis. Etiam id tempor purus.
             </div>
         </div>
     </section>
@@ -135,7 +134,7 @@
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Programmēšana</h2>
-                    <p>Mēģinu/esmu apguvis šīs valodas:</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices ultricies commodo. Curabitur laoreet ante ac arcu volutpat ullamcorper. Phasellus ipsum risus, malesuada non interdum ac, commodo eu dui. Donec diam mauris, tempor eu consequat non, suscipit sit amet justo. Aenean iaculis tincidunt pretium. Nulla a odio sit amet risus pellentesque mattis at vitae libero. Donec nec suscipit tortor. Morbi quis fringilla erat. Etiam ornare orci dui, eget dapibus purus feugiat facilisis. Etiam id tempor purus.</p>
                 </div>
             </div>
         </div>
@@ -187,23 +186,13 @@
     <!-- Load modal -->
      <script type="text/javascript">
 	$(document).ready(function(){
-		$("#Modal1").modal('show');
+		$("#Temporary").modal('show');
 	});
     </script>
     <!-- Konami code thing :) -->
     <script type="text/javascript" src="js/konami.js"></script>
-    <script type="text/javascript">
-        var konami = new Konami();
-        konami.code = function() { 
-        $("#egg").modal('show'); 
-        }
-        konami.load();
-
-    </script>
-    <script>
-
-</script>
-<script type="text/javascript" src="js/dvid.js"> </script>
+    
+    <script type="text/javascript" src="js/dvid.js"> </script>
 </body>
 
 </html> 

@@ -1,2 +1,5 @@
-console.log('Hello! This is my website.. I hope there arent any errors..');
-console.log('Your user agent is '+ navigator.userAgent);
+var konami = new Konami();
+        konami.code = function() { 
+        $("#egg").modal('show'); 
+        }
+        konami.load();
