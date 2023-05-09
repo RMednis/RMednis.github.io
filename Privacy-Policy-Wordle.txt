@@ -1,0 +1,24 @@
+Privacy Policy
+
+We take your privacy very seriously. This privacy policy explains how M-Wordle ("the App") collects, uses, and shares your personal information. By using the App, you consent to our privacy policy.
+
+Data Collection
+Our App does not collect any personal information or data about you. We do not track your location, usage habits, or any other personal information. Any and all app data is stored locally on device.
+
+Third-Party Services
+Our App does not use any third-party services or libraries that collect personal information or data about you.
+
+Data Usage
+Since our App does not collect any personal information or data about you, we do not use any data for any purpose.
+
+Data Sharing
+Since our App does not collect any personal information or data about you, we do not share any data with any third parties.
+
+Data Security
+We take the security of your personal information very seriously. Since our App does not collect or store any personal information, we do not have any security measures in place to protect such data.
+
+Changes to this Privacy Policy
+We may update this privacy policy from time to time. We will notify you of any changes by posting the new privacy policy on this page. Major changes will be announced on release.
+
+Contact Us
+If you have any questions or concerns about our privacy policy or how we handle your personal information, please contact us at hello.wordle@mednis.id.lv
